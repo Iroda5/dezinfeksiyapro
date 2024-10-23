@@ -1,0 +1,22 @@
+.cont{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    &__div{
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        flex-direction: column;
+    }
+    &__icon{
+        color: blue;
+        width: 4rem !important;
+        height: 4rem !important;
+    }
+    &__text{
+        color: rgb(77, 75, 75);
+    }
+    &__xizmat{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+}

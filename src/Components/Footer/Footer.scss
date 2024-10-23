@@ -1,0 +1,85 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__qol{
+        font-size: 40px;
+    }
+    &__div{
+       background-color: rgb(75, 220, 220);
+       width: 1450px;
+       min-height: 600px;
+       border-radius: 20px;
+       display: flex;
+       gap: 200px;
+       align-items: center;
+       justify-content: center;
+       @media(max-width:1183px){
+        display: flex;
+        flex-direction: column;
+    }
+    }
+    &__mal{
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        width: 500px;
+        background-color: white;
+        padding: 30px 30px;
+        border-radius: 20px;
+        @media(max-width: 700px){
+            width: 350px;
+        }
+    }
+    &__input{
+        padding: 20px 20px;
+        border-radius: 20px;
+        background-color: rgb(228, 242, 243);
+        border: 1px gray solid;
+    }
+    &__yub{
+        padding: 20px 20px;
+        background-color: black;
+        color: white;
+        border-radius: 20px;
+        font-size: 20px;
+    }
+    &__line{
+        width: 1500px;
+        border: 1px solid gray;
+        margin-top: 50px;
+    }
+    &__contact{
+        display: flex;
+    }
+    &__img{
+        width: 300px;
+        @media(max-width:1116px){
+            width: 200px;
+        }
+    }
+    &__tact{
+        display: flex;
+        gap: 15px;
+        font-size: 20px;
+        color: rgb(92, 90, 90);
+    }
+    &__two{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    &__contact{
+        margin: 90px 90px;
+        display: flex;
+        gap: 200px;
+        align-items: end; 
+        @media(max-width: 941px){
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    &__icon{
+        color: black;
+    }
+}

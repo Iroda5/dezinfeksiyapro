@@ -1,0 +1,45 @@
+.kafolat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__cont{
+        background-color: rgb(75, 220, 220);
+        width: 1450px;
+        min-height: 600px;
+        border-radius: 20px;
+        display: flex;
+        gap: 90px;
+        align-items: center;
+        justify-content: center;
+        @media(max-width:1135px){
+            display: flex;
+            flex-direction: column;
+        }
+
+    }
+    &__dez{
+        border-radius: 20px;
+        @media(max-width:600px){
+            width: 400px;
+        }
+    }
+    &__two{
+        width: 500px;
+        font-size: 30px;
+        color: white;
+        @media(max-width:600px){
+            width: 300px;
+            font-size: 25px;
+        }
+    }
+    &__button{
+        margin-top: 50px;
+        color: white;
+        background-color: rgb(55, 55, 241);
+        padding: 15px 36px;
+        font-weight: 700;
+        border: none;
+        border-radius: 23px;
+        font-size: 23px;
+    }
+}

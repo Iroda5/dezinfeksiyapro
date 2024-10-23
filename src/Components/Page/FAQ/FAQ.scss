@@ -1,0 +1,34 @@
+.faq{
+    margin-top: 50px;
+    display: flex;
+    gap: 110px;
+    padding: 20px 20px;
+    @media(max-width:600px){
+        display: flex;
+        flex-direction: column;
+    }
+    &__line{
+        border: 1px solid gray;
+    }
+    &__zar{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    &__tekst{
+        font-size: 28px;
+        color: rgb(97, 95, 95);
+    }
+    &__yoq{
+        font-size: 60px;
+    }
+    &__dori{
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+    }
+}
+h3{
+    font-size: 30px;
+    color: gray;
+}

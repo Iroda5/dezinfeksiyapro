@@ -1,0 +1,45 @@
+.about{
+    margin-top: 60px;
+    background-image: url(https://magnitogorsk.glavdezcentr.ru/files/site/dezinfektsiya-pomesheniy.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 20px 100px 100px 400px rgba(36, 82, 118, 0.56) inset;
+    &__mijoz{
+        font-size: 50px;
+        color: black;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 900;
+        text-align: center; 
+    }
+    &__box{
+    color: white;
+    background-color: rgb(55, 55, 241);
+    padding: 15px 36px;
+    font-weight: 700;
+    border: none;
+    border-radius: 23px;
+    font-size: 23px;
+    animation-name: animate__backInLeft;   
+    animation-duration: 2s;
+    position: relative;  
+    &:hover{
+        opacity: 0.7;
+    }  
+    }
+    &__text{
+        color: rgb(239, 232, 232);
+        font-size: 20px;
+        font-weight: 900;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+}

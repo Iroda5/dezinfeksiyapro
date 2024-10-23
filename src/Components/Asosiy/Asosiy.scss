@@ -1,0 +1,39 @@
+.cont{
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    padding: 20px 20px;
+    margin-top: 90px;
+    @media(max-width:1175px){
+        display: flex;
+        flex-direction: column;
+    }
+    &__dez{
+        font-size: 80px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: blue;
+        @media(max-width:900px){
+            font-size: 30px;
+        }
+    }
+    &__text{
+        font-size: 24px;
+    }
+    &__img{
+        width: 300px;   
+    }
+    &__rasm{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        @media(max-width: 900px){
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    &__pic{
+        @media(max-width:900px){
+            width: 400px;
+        }
+    }
+}
