@@ -1,5 +1,4 @@
-import { Outlet } from 'react-router-dom'
-import './App.scss'
+ import './App.scss'
 import Navigation from './Components/Navigation/Navigation'
 import Asosiy from './Components/Asosiy/Asosiy'
 import Haqimizda from './Components/Page/Haqimizda/Haqimizda'

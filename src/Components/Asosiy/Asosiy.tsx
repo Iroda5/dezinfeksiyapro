@@ -1,12 +1,7 @@
 import "./Asosiy.scss"
-import { ChangeEvent } from "react"
-import { useTranslation } from "react-i18next"
 
 const Asosiy = () => {
-  const {t, i18n} = useTranslation()
-  const selectHandler = (e:ChangeEvent<HTMLSelectElement>) => {
-    i18n.changeLanguage(e.target.value)
-  }
+  
   return (
     <div className="cont">
         <div className="cont__left" data-aos="fade-right">

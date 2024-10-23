@@ -1,6 +1,5 @@
 import "./Navigation.scss"
-import { Link } from "react-router-dom"
-import MenuIcon from '@mui/icons-material/Menu';
+ import MenuIcon from '@mui/icons-material/Menu';
 import Menu from "./Menu/Menu";
 import { useTranslation } from "react-i18next"
 import { useState } from "react";
